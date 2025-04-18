@@ -8,9 +8,6 @@ error_reporting(E_ALL);
 
 $path = "https://".$_SERVER['SERVER_NAME'];
 $root = rtrim(str_replace('index.php','',$path), '/');
-
-
-
 define('ROOT', $root . "/");
 define('ASSETS', ROOT . "assets/");
 
